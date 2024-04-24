@@ -1,5 +1,4 @@
 package myoperator
-
 import AbstractOperation
 
 class MultiplyOperation: AbstractOperation(){

@@ -3,4 +3,3 @@ class Calculator(private val operation: AbstractOperation) {
         return operation.operation(num1, num2)
     }
 }
-

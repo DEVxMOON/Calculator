@@ -2,11 +2,11 @@ import myoperator.*
 
 fun main() {
     print("첫번째 수 입력: ")
-    val num1 = readLine()!!.toDouble()
+    val num1 = readln().toDouble()
     print("연산자 입력: ")
-    val op = readLine()!!.toString()
+    val op = readln()
     print("두번째 수 입력: ")
-    val num2 = readLine()!!.toDouble()
+    val num2 = readln().toDouble()
 
     var result: Double = 0.toDouble()
 
@@ -45,6 +45,6 @@ fun main() {
         }
     }
 
-    println("result : ${num1} ${op} ${num2} = ${result}")
+    println("result : $num1 $op $num2 = $result")
 
 }
